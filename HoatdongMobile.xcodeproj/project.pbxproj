@@ -30,6 +30,15 @@
 		F2DBEA381CBF527E005FBB20 /* QKCSBigLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBEA371CBF527E005FBB20 /* QKCSBigLoadingView.m */; };
 		F2DBEA451CBF5286005FBB20 /* NavSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBEA441CBF5286005FBB20 /* NavSpinner.m */; };
 		F2DBEA4A1CBF52D5005FBB20 /* CameraModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBEA491CBF52D5005FBB20 /* CameraModule.m */; };
+		F2DF0E0621B3EAC700720977 /* RNMessageComposeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DF0DF121B3EAC600720977 /* RNMessageComposeBridge.m */; };
+		F2DF0E0721B3EAC700720977 /* RNMessageCompose.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF0DF221B3EAC600720977 /* RNMessageCompose.swift */; };
+		F2DF0E0821B3EAC700720977 /* RNTwiterShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DF0DF421B3EAC600720977 /* RNTwiterShareModule.m */; };
+		F2DF0E0921B3EAC700720977 /* RNSafariModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DF0DF721B3EAC600720977 /* RNSafariModule.m */; };
+		F2DF0E0A21B3EAC700720977 /* RNTouchIdModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DF0DFB21B3EAC600720977 /* RNTouchIdModule.m */; };
+		F2DF0E0B21B3EAC700720977 /* TumblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DF0DFD21B3EAC700720977 /* TumblViewController.m */; };
+		F2DF0E0C21B3EAC700720977 /* RNTumblrModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DF0DFE21B3EAC700720977 /* RNTumblrModule.m */; };
+		F2DF0E0D21B3EAC700720977 /* RCTBaseTextInputViewManager+Fix.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DF0E0321B3EAC700720977 /* RCTBaseTextInputViewManager+Fix.m */; };
+		F2DF0E0E21B3EAC700720977 /* RCTBaseTextInputView+Fix.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DF0E0421B3EAC700720977 /* RCTBaseTextInputView+Fix.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +163,23 @@
 		F2DBEA441CBF5286005FBB20 /* NavSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavSpinner.m; sourceTree = "<group>"; };
 		F2DBEA481CBF52D5005FBB20 /* CameraModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraModule.h; sourceTree = "<group>"; };
 		F2DBEA491CBF52D5005FBB20 /* CameraModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraModule.m; sourceTree = "<group>"; };
+		F2DF0DF021B3EAC600720977 /* RNMessageCompose-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNMessageCompose-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2DF0DF121B3EAC600720977 /* RNMessageComposeBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMessageComposeBridge.m; sourceTree = "<group>"; };
+		F2DF0DF221B3EAC600720977 /* RNMessageCompose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNMessageCompose.swift; sourceTree = "<group>"; };
+		F2DF0DF421B3EAC600720977 /* RNTwiterShareModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTwiterShareModule.m; sourceTree = "<group>"; };
+		F2DF0DF521B3EAC600720977 /* RNTwiterShareModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTwiterShareModule.h; sourceTree = "<group>"; };
+		F2DF0DF721B3EAC600720977 /* RNSafariModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSafariModule.m; sourceTree = "<group>"; };
+		F2DF0DF821B3EAC600720977 /* RNSafariModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSafariModule.h; sourceTree = "<group>"; };
+		F2DF0DFA21B3EAC600720977 /* RNTouchIdModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTouchIdModule.h; sourceTree = "<group>"; };
+		F2DF0DFB21B3EAC600720977 /* RNTouchIdModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTouchIdModule.m; sourceTree = "<group>"; };
+		F2DF0DFD21B3EAC700720977 /* TumblViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblViewController.m; sourceTree = "<group>"; };
+		F2DF0DFE21B3EAC700720977 /* RNTumblrModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTumblrModule.m; sourceTree = "<group>"; };
+		F2DF0DFF21B3EAC700720977 /* TumblViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblViewController.h; sourceTree = "<group>"; };
+		F2DF0E0021B3EAC700720977 /* RNTumblrModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTumblrModule.h; sourceTree = "<group>"; };
+		F2DF0E0221B3EAC700720977 /* RCTBaseTextInputView+Fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTBaseTextInputView+Fix.h"; sourceTree = "<group>"; };
+		F2DF0E0321B3EAC700720977 /* RCTBaseTextInputViewManager+Fix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTBaseTextInputViewManager+Fix.m"; sourceTree = "<group>"; };
+		F2DF0E0421B3EAC700720977 /* RCTBaseTextInputView+Fix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTBaseTextInputView+Fix.m"; sourceTree = "<group>"; };
+		F2DF0E0521B3EAC700720977 /* RCTBaseTextInputViewManager+Fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTBaseTextInputViewManager+Fix.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,6 +421,12 @@
 		F2DBEA4C1CBF55E6005FBB20 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				F2DF0DEF21B3EAC600720977 /* RNMessageCompose */,
+				F2DF0DF621B3EAC600720977 /* SafariModule */,
+				F2DF0E0121B3EAC700720977 /* TextInput */,
+				F2DF0DF921B3EAC600720977 /* TouchId */,
+				F2DF0DFC21B3EAC700720977 /* TumblrModule */,
+				F2DF0DF321B3EAC600720977 /* TwitterShare */,
 				F269D20E1CCF773900B1E0A0 /* TableViewModule */,
 				F269D10F1CCF21E100B1E0A0 /* SqliteModule */,
 				F2DBEA4B1CBF55BC005FBB20 /* Multilangguage */,
@@ -402,6 +434,65 @@
 				F2DBEA461CBF528B005FBB20 /* Spinner */,
 			);
 			name = Module;
+			sourceTree = "<group>";
+		};
+		F2DF0DEF21B3EAC600720977 /* RNMessageCompose */ = {
+			isa = PBXGroup;
+			children = (
+				F2DF0DF021B3EAC600720977 /* RNMessageCompose-Bridging-Header.h */,
+				F2DF0DF121B3EAC600720977 /* RNMessageComposeBridge.m */,
+				F2DF0DF221B3EAC600720977 /* RNMessageCompose.swift */,
+			);
+			path = RNMessageCompose;
+			sourceTree = "<group>";
+		};
+		F2DF0DF321B3EAC600720977 /* TwitterShare */ = {
+			isa = PBXGroup;
+			children = (
+				F2DF0DF421B3EAC600720977 /* RNTwiterShareModule.m */,
+				F2DF0DF521B3EAC600720977 /* RNTwiterShareModule.h */,
+			);
+			path = TwitterShare;
+			sourceTree = "<group>";
+		};
+		F2DF0DF621B3EAC600720977 /* SafariModule */ = {
+			isa = PBXGroup;
+			children = (
+				F2DF0DF721B3EAC600720977 /* RNSafariModule.m */,
+				F2DF0DF821B3EAC600720977 /* RNSafariModule.h */,
+			);
+			path = SafariModule;
+			sourceTree = "<group>";
+		};
+		F2DF0DF921B3EAC600720977 /* TouchId */ = {
+			isa = PBXGroup;
+			children = (
+				F2DF0DFA21B3EAC600720977 /* RNTouchIdModule.h */,
+				F2DF0DFB21B3EAC600720977 /* RNTouchIdModule.m */,
+			);
+			path = TouchId;
+			sourceTree = "<group>";
+		};
+		F2DF0DFC21B3EAC700720977 /* TumblrModule */ = {
+			isa = PBXGroup;
+			children = (
+				F2DF0DFD21B3EAC700720977 /* TumblViewController.m */,
+				F2DF0DFE21B3EAC700720977 /* RNTumblrModule.m */,
+				F2DF0DFF21B3EAC700720977 /* TumblViewController.h */,
+				F2DF0E0021B3EAC700720977 /* RNTumblrModule.h */,
+			);
+			path = TumblrModule;
+			sourceTree = "<group>";
+		};
+		F2DF0E0121B3EAC700720977 /* TextInput */ = {
+			isa = PBXGroup;
+			children = (
+				F2DF0E0221B3EAC700720977 /* RCTBaseTextInputView+Fix.h */,
+				F2DF0E0321B3EAC700720977 /* RCTBaseTextInputViewManager+Fix.m */,
+				F2DF0E0421B3EAC700720977 /* RCTBaseTextInputView+Fix.m */,
+				F2DF0E0521B3EAC700720977 /* RCTBaseTextInputViewManager+Fix.h */,
+			);
+			path = TextInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -655,10 +746,19 @@
 			files = (
 				F2DBEA4A1CBF52D5005FBB20 /* CameraModule.m in Sources */,
 				F2DBEA381CBF527E005FBB20 /* QKCSBigLoadingView.m in Sources */,
+				F2DF0E0921B3EAC700720977 /* RNSafariModule.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				F2DF0E0721B3EAC700720977 /* RNMessageCompose.swift in Sources */,
+				F2DF0E0821B3EAC700720977 /* RNTwiterShareModule.m in Sources */,
+				F2DF0E0621B3EAC700720977 /* RNMessageComposeBridge.m in Sources */,
+				F2DF0E0B21B3EAC700720977 /* TumblViewController.m in Sources */,
 				F2DBEA171CBF4A74005FBB20 /* I18nLocale.m in Sources */,
+				F2DF0E0C21B3EAC700720977 /* RNTumblrModule.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				F2DF0E0E21B3EAC700720977 /* RCTBaseTextInputView+Fix.m in Sources */,
+				F2DF0E0D21B3EAC700720977 /* RCTBaseTextInputViewManager+Fix.m in Sources */,
 				F2DBEA451CBF5286005FBB20 /* NavSpinner.m in Sources */,
+				F2DF0E0A21B3EAC700720977 /* RNTouchIdModule.m in Sources */,
 				F269D11C1CCF21F400B1E0A0 /* SqliteModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,6 +789,7 @@
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -709,6 +810,7 @@
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
